@@ -18,8 +18,7 @@ import io.cucumber.junit.CucumberOptions;
 					plugin= {
 								"pretty", "html:reports/myreport.html",   
 								"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
-								"rerun:target/rerun.txt",
-							
+								"rerun:target/rerun.txt",							
 							},
 							
 					dryRun=false,    // checks mapping between scenario steps and step definition methods
