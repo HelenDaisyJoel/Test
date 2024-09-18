@@ -21,7 +21,6 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 public class DataReader {
 	
 	public static HashMap<String, String> storeValues = new HashMap();
-
 	public static List<HashMap<String, String>> data(String filepath, String sheetName) throws IOException 
 	 {
 		
@@ -32,8 +31,7 @@ public class DataReader {
 			XSSFSheet sheet = workbook.getSheet(sheetName);
 			int totalRows=sheet.getLastRowNum();
 				
-			XSSFRow headerRow=sheet.getRow(0);
-			
+			XSSFRow headerRow=sheet.getRow(0);		
 			
 			for (int i = 1; i <= totalRows; i++) 
 				{
