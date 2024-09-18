@@ -27,8 +27,7 @@ public class RegistrationSteps {
 	
 		hp=new HomePage(BaseClass.getDriver());
     	hp.clickMyAccount();
-        hp.clickRegister();
-                   
+        hp.clickRegister();                   
 	}
 
 	@When("the user enters the details into below fields")
