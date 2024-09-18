@@ -41,8 +41,7 @@ public class RegistrationSteps {
 		regpage.setEmail(BaseClass.randomAlphaNumeric()+"@gmail.com");
 		regpage.setTelephone(dataMap.get("telephone"));
 		regpage.setPassword(dataMap.get("password"));
-		regpage.setConfirmPassword(dataMap.get("password"));
-		
+		regpage.setConfirmPassword(dataMap.get("password"));		
 	}
 
 	@When("the user selects Privacy Policy")
